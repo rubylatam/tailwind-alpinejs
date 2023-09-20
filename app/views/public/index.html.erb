@@ -2,7 +2,7 @@
   <div class="flex items-center justify-between py-6 lg:py-10">
     <a href="/" class="flex items-center">
       <span href="/" class="mr-2">
-        <img src="/assets/img/logo.svg" alt="logo" />
+        <%= image_tag("logo.svg", alt: "logo") %>
       </span>
       <p class="hidden font-body text-2xl font-bold text-primary dark:text-white lg:block">
         John Doe
@@ -97,7 +97,7 @@
   <div class="container mx-auto">
     <div class="border-b border-grey-lighter py-16 lg:py-20">
       <div>
-        <img src="/assets/img/author.png" class="h-16 w-16" alt="author" />
+        <%= image_tag("author.png", class: "h-16 w-16", alt: "author") %>
       </div>
       <h1 class="pt-3 font-body text-4xl font-semibold text-primary dark:text-white md:text-5xl lg:text-6xl">
         Hi, I’m John Doe.
@@ -113,7 +113,7 @@
 
     <div class="border-b border-grey-lighter py-16 lg:py-20">
       <div class="flex items-center pb-6">
-        <img src="/assets/img/icon-story.png" alt="icon story" />
+        <%= image_tag("icon-story.png", alt: "icon story") %>
         <h3 class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white">
           My Story
         </h3>
@@ -138,14 +138,14 @@
 
     <div class="py-16 lg:py-20">
       <div class="flex items-center pb-6">
-        <img src="/assets/img/icon-story.png" alt="icon story" />
+        <%= image_tag("icon-story.png", alt: "icon story") %>
         <h3 class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white">
           My Story
         </h3>
         <a href="/blog"
           class="flex items-center pl-10 font-body italic text-green transition-colors hover:text-secondary dark:text-green-light dark:hover:text-secondary">
           All posts
-          <img src="/assets/img/long-arrow-right.png" class="ml-3" alt="arrow right" />
+          <%= image_tag("long-arrow-right.png", class:"ml-3", alt: "arrow right") %>
         </a>
       </div>
       <div class="pt-8">
@@ -206,7 +206,7 @@
 
     <div class="pb-16 lg:pb-20">
       <div class="flex items-center pb-6">
-        <img src="/assets/img/icon-project.png" alt="icon story" />
+        <%= image_tag("icon-project.png", alt: "icon story") %>
         <h3 class="ml-3 font-body text-2xl font-semibold text-primary dark:text-white">
           My Projects
         </h3>
@@ -223,7 +223,7 @@
             </p>
           </span>
           <span class="w-1/10">
-            <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
+            <%= image_tag("chevron-right.png", class:"mx-auto", alt: "chevron right") %>
           </span>
         </a>
 
@@ -237,7 +237,7 @@
             </p>
           </span>
           <span class="w-1/10">
-            <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
+            <%= image_tag("chevron-right.png", class: "mx-auto", alt: "chevron right") %>
           </span>
         </a>
 
@@ -251,7 +251,7 @@
             </p>
           </span>
           <span class="w-1/10">
-            <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
+            <%= image_tag("chevron-right.png", class: "mx-auto", alt: "chevron right") %>
           </span>
         </a>
 
@@ -265,7 +265,7 @@
             </p>
           </span>
           <span class="w-1/10">
-            <img src="/assets/img/chevron-right.png" class="mx-auto" alt="chevron right" />
+            <%= image_tag("chevron-right.png", class: "mx-auto", alt: "chevron right") %>
           </span>
         </a>
 
@@ -278,7 +278,7 @@
   <div class="flex flex-col items-center justify-between border-t border-grey-lighter py-10 sm:flex-row sm:py-12">
     <div class="mr-auto flex flex-col items-center sm:flex-row">
       <a href="/" class="mr-auto sm:mr-6">
-        <img src="/assets/img/logo.svg" alt="logo" />
+        <%= image_tag("logo.svg", alt: "logo") %>
       </a>
       <p class="pt-5 font-body font-light text-primary dark:text-white sm:pt-0">
         ©2020 John Doe.
